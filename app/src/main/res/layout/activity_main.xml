@@ -91,7 +91,7 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:background="#E01695"
+                    android:background="#1692E6"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
@@ -124,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#79CB04"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
@@ -132,13 +132,13 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/ic_restaurant"
+                        android:src="@drawable/ic_pets"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Food"
+                        android:text="Pet Care"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -150,7 +150,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#45359B"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
@@ -158,13 +158,13 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/ic_library_book"
+                        android:src="@drawable/ic_texture"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="book"
+                        android:text="Clothing"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -182,7 +182,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginRight="25dp"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#F58503"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
@@ -190,13 +190,13 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/ic_restaurant"
+                        android:src="@drawable/ic_photo_camera"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Food"
+                        android:text="Photography"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -208,7 +208,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
+                    android:background="#F10101"
                     android:orientation="vertical"
                     android:gravity="center_horizontal">
 
@@ -216,13 +216,13 @@
                     <ImageView
                         android:layout_width="100dp"
                         android:layout_height="100dp"
-                        android:src="@drawable/ic_library_book"
+                        android:src="@drawable/ic_free_breakfast"
                         />
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="book"
+                        android:text="Beverages"
                         android:textColor="#FFF"
                         android:layout_marginTop="20dp"
                         android:textSize="20sp"
@@ -260,31 +260,29 @@
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#1692E6"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ic_library_book" />
+
+                <TextView
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
-                    android:background="#E01695"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal">
+                    android:text="book"
+                    android:textColor="#FFF"
+                    android:textSize="20sp" />
 
-
-                    <ImageView
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
-                        android:src="@drawable/ic_library_book"
-                        />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="book"
-                        android:textColor="#FFF"
-                        android:layout_marginTop="20dp"
-                        android:textSize="20sp"
-                        />
-
-                </LinearLayout>
+            </LinearLayout>
 
 
             </TableRow>
